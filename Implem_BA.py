@@ -111,3 +111,10 @@ def filter_polynomials(poly_list):
 filtered_G = filter_polynomials(G)
 print("Reduced Groebner basis is:", filtered_G)
 
+
+OUTPUT:
+The least common multiple is: x**4*y**5
+The Spolynomial calculated is: -x**3*y**2
+Gröbner Basis: [x**4*y**2, x**2*y**5 + x*y**2, 3*x**2 + x, -x*y**2/9]
+The set is a Groebner basis.
+Reduced Groebner basis is: [x**2 + x/3, x*y**2]
